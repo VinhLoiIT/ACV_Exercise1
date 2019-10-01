@@ -2,32 +2,22 @@
 Applied Computer Vision Project 1
 
 # Changelog
-- Version 7 [Kaggle](https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21305908):
-  - Thêm 1 lớp Conv2D sau Version 6
-  - Kết quả: 0.9277999997138977
 
-- Version 6 [Kaggle](https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21223135):
-  - Thêm 1 lớp Conv2D sau 3 lớp gate
-  - Kết quả: 0.9214000105857849
+| Version | Changes | Test Accuracy |
+| --- | --- | --- |
+| [7][v7] | Thêm 1 lớp Conv2D sau Version 6 | 0.9278 |
+| [6][v6] | Thêm 1 lớp Conv2D sau 3 lớp gate | 0.9214 |
+| [5][v5] | <lu><li>Bỏ bớt Batch Norm giữa các layer</li><li>Gộp 2 lớp FC(64), FC(32) thành 1 lớp FC(128)</li></lu> | 0.9321 |
+| [4][v4] | <lu><li>Augmentation bằng cách thêm nhiễu Gauss (mean, std) = (0, 0.1) (do ảnh đã norm từ 0..255 thành 0..1)</li><li>Thêm 1 cổng Gated</li></lu> | 0.9223 |
+| [3][v3] | Chuyển mô hình sang Gated CNN (thêm cơ chế cổng). Dùng 2 cổng | 0.9285 |
+| [2][v2] | Tăng thêm 1 lớp Conv2D, sử dụng BatchNormalization | 0.9112 |
+| [1][v1] | Sử dụng CNN 1 lớp cơ bản dựa trên [tutorial] | 0.9159 |
 
-- Version 5 [Kaggle](https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21221727):
-  - Bỏ bớt Batch Norm giữa các layer
-  - Gộp 2 lớp FC(64), FC(32) thành 1 lớp FC(128)
-  - Kết quả: 0.9320999979972839
-
-- Version 4 [Kaggle](https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21221321):
-  - Augmentation bằng cách thêm nhiễu Gauss (mean, std) = (0, 0.1) (do ảnh đã norm từ 0..255 thành 0..1)
-  - Thêm 1 cổng Gated
-  - Kết quả: 0.9222999811172485
-
-- Version 3 [Kaggle](https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21219669):
-  - Chuyển mô hình sang Gated CNN (thêm cơ chế cổng). Dùng 2 cổng
-  - Kết quả: 0.9284999966621399
-
-- Version 2 [Kaggle](https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21217665):
-  - Tăng thêm 1 lớp Conv2D, sử dụng BatchNormalization
-  - Kết quả: 0.9111999869346619
-
-- Version 1 [Kaggle](https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21110871):
-  - Sử dụng CNN 1 lớp cơ bản dựa trên [tutorial](https://www.kaggle.com/pavansanagapati/a-tutorial-cnn-model-fashion-mnist)
-  - Kết quả: 0.9159
+[v1]: https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21110871
+[v2]: https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21217665
+[v3]: https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21219669
+[v4]: https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21221321
+[v5]: https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21221727
+[v6]: https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21223135
+[v7]: https://www.kaggle.com/vinhloiit1327/exercise-fashionmnist?scriptVersionId=21305908
+[tutorial]: https://www.kaggle.com/pavansanagapati/a-tutorial-cnn-model-fashion-mnist
