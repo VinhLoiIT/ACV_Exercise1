@@ -1,9 +1,9 @@
 # Báo cáo bài tập 1
 
 # Thông tin sinh viên
-MSSV: 1612348
-Họ và tên: Lý Vĩnh Lợi
-Email: vinhloiit1327@gmail.com
+- MSSV: 1612348
+- Họ và tên: Lý Vĩnh Lợi
+- Email: vinhloiit1327@gmail.com
 
 # Nội dung
 
