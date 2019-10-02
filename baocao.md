@@ -42,8 +42,10 @@ Mô hình tốt nhất: **0.9330**
 Qua kết quả trên cho thấy, cơ chế cổng giúp tăng độ chính xác hơn sơ với mô hình CNN truyền thống.
 
 Ý tưởng ban đầu là sử dụng cổng (hàm kích hoạt sigmoid) sẽ giúp loại bỏ bớt nhiễu/đặc trưng ảnh hưởng xấu đến kết quả. Nó loại được nhiễu có khả năng là do hàm kích hoạt sigmoid có giá trị thuộc $[0..1]$ tương ứng xác suất/độ mạnh yếu của đặc trưng
+
 Biểu thức toán:
 $$\mathbf{y}=g(\mathbf{x}).\mathbf{x}$$
+
 Trong đó:
 - $\mathbf{x}$ là đặc trưng input của lớp hiện tại
 - $\mathbf{y}$ là đặc trưng output của lớp hiện tại
